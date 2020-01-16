@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-type" content="text/html; charset=utf-8"/>
+    <title><%= htmlWebpackPlugin.options.title %></title>
+    <link rel="stylesheet" href="<%= htmlWebpackPlugin.options.files.css %>">
+    <style>
+        #container {
+            padding: 20px;
+        }
+        #instructions {
+            position: absolute;
+            width: 100%;
+            bottom: 1em;
+            text-align: center;
+            font: 18pt Verdana, Arial, sans-serif;
+        }
+    </style>
+</head>
+<body>
+  <div id="container">
+    <div id="webgl"></div>
+    <div id="instructions">Click and drag to rotate.  Image <span id="image-num">0</span></div>
+  </div>
+</body>
+</html>

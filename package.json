@@ -1,0 +1,27 @@
+{
+  "name": "threejs",
+  "version": "1.0.0",
+  "description": "Three JS Webpack Test",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack",
+    "watch": "webpack --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "private"
+  },
+  "author": "Stefan Musarra",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-core": "^6.24.0",
+    "babel-loader": "^6.4.1",
+    "babel-preset-es2015": "^6.24.0",
+    "html-webpack-plugin": "^2.28.0",
+    "webpack": "^2.3.2"
+  },
+  "dependencies": {
+    "three": "^0.84.0",
+    "three.regular.helvetiker": "^1.0.0"
+  }
+}
